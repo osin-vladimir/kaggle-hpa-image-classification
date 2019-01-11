@@ -7,8 +7,8 @@ import torch
 import yaml
 import pandas as pd
 
-from common.torch_info import device
-from common.utils      import create_model, train, val, create_optim, create_scheduler, get_learning_rate
+from torch_info        import device
+from utils             import create_model, train, val, create_optim, create_scheduler, get_learning_rate
 from dataset           import ProteinDataset
 from common.criterions import F1Loss
 from torch.utils.data  import DataLoader, WeightedRandomSampler

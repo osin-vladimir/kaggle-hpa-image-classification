@@ -1,6 +1,6 @@
 ### Human Protein Atlas Image Classification
 
-![](header.png)
+![](https://storage.googleapis.com/kaggle-competitions/kaggle/10418/logos/header.png?t=2018-08-20-03-03-58)
 
 #### Task
 Developing of models that capable classify mixed patterns of proteins in microscope images. 
