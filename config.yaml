@@ -1,0 +1,22 @@
+device             : 'cuda'
+mean               : [0.05908022413399168, 0.04532851916280794, 0.040652325092460015]
+std                : [0.128208736440034,   0.10483430909287018, 0.13170772864536157]
+model_name         : 'resnet18'
+checkpoint_m       : None
+checkpoint_op      : None
+checkpoint_sch     : None
+image_size         : 512
+depth              : 3
+batch_size         : 96
+models_dir         : ''
+img_csv_path_train : ''
+img_csv_path_val   : ''
+img_csv_path_test  : ''
+data_path          : ''
+weights            : [1.0, 3.4, 2.17, 3.26, 2.84, 2.79, 3.21, 2.35, 6.04, 6.29, 6.41, 3.8, 3.81, 4.26, 3.53, 7.55, 4.48,
+                      5.66, 3.97, 3.27, 5.36, 1.97, 3.66, 2.17, 5.08, 1.0, 4.88, 7.05, 2.34, 2.31, 6.8, 7.48, 9.27]
+debug              : False
+multi_gpu          : True
+n_classes          : 33
+tta                : True
+
